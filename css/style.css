@@ -1,0 +1,32 @@
+.top-banner h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.top-banner {
+    height: 200px;
+    background-color: goldenrod;
+}
+
+.navbar {
+    background-color: green;
+}
+
+ul li a {
+    color: white!important;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.live {
+    text-align: center;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+.table td {
+    vertical-align: middle;
+}
