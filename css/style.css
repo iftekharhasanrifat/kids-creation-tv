@@ -8,6 +8,7 @@
     position: absolute;
     z-index: 1;
     margin-right: 10px;
+    transition: 0.5s;
 }
 
 #about-us {
@@ -43,6 +44,7 @@ ul li a {
     margin-left: 10px;
     font-size: 20px;
     font-weight: 600;
+    transition: 0.5s;
 }
 
 .live {
@@ -109,6 +111,30 @@ footer h4 {
     font-size: 25px;
 }
 
-#contact-us {
-    height: 500px;
+#contact-us #live {
+    height: 600px;
+}
+
+#programs h1 {
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+#programs h1:hover {
+    color: green!important;
+    font-size: 40px;
+}
+
+ul li a:hover {
+    color: black!important;
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+
+#logo img:hover {
+    width: 250px;
+}
+
+.live iframe {
+    border: 10px solid white;
 }
